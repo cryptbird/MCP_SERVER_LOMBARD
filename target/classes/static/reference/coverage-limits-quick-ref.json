@@ -1,0 +1,15 @@
+{
+  "home_contents": {
+    "built_in_cover": "20% of Home Building SI, max 1000000"
+  },
+  "section_11_break_in": {
+    "unoccupied_limit_days": 30,
+    "security_upgrade": 50000
+  },
+  "section_14_lock_key": {
+    "lock_replacement": 25000
+  },
+  "personal_accident_optional": {
+    "amount_per_person": 500000
+  }
+}
