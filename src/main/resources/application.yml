@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: home-insurance-mcp-server
+  ai:
+    mcp:
+      server:
+        name: icici-lombard-home-insurance
+        version: 1.0.0
 
 management:
   endpoints:
@@ -14,5 +19,5 @@ management:
 app:
   iltc:
     base-url: ${ILTC_BASE_URL:https://api-iltc.insurancearticlez.com/dps-agorax/api/v1/pay}
-    username: ${ILTC_USERNAME:ILTakeCare}
-    password: ${ILTC_PASSWORD:}
+    username: ${ILTC_USERNAME:DIGITAL_WEBSITE}
+    password: ${ILTC_PASSWORD:uZKnKo0CEWWmV7jix/EPhg==}
