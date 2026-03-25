@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class McpToolConfig {
 
     @Bean
-    public ToolCallbackProvider toolCallbackProvider(
+    public ToolCallbackProvider legacyToolCallbackProvider(
             InsuranceTools insuranceTools,
             PolicyResourceTools policyResourceTools) {
         return MethodToolCallbackProvider.builder()
